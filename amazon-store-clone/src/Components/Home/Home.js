@@ -2,7 +2,11 @@ import React from 'react';
 import './Home.css';
 
 function Home() {
-  return <div>Iam the home component</div>;
+  return (
+    <div className='home'>
+      <div className='home__container'></div>
+    </div>
+  );
 }
 
 export default Home;
