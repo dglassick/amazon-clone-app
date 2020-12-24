@@ -28,7 +28,9 @@ function CheckoutProduct({ id, image, title, price, rating }) {
             </span>
           </p>
         </div>
-        <button onClick={removeFromBasket}>Remove from Checkout</button>
+        <button className='checkoutProduct__button' onClick={removeFromBasket}>
+          Remove from Checkout
+        </button>
       </div>
     </div>
   );
